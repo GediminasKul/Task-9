@@ -21,3 +21,12 @@ class Movie {
     };
   }
 }
+
+const filmas = new Movie('I am a', 'Hunter', 1515151);
+console.log(filmas);
+const filmas2 = new Movie('Ayaya', 'Love is', 2);
+const filmas3 = new Movie('Work for it', 'Hills over the sea', 1000000000);
+console.log(filmas2);
+console.log(filmas3);
+const ats = console.log(filmas2.calculation(this.budget));
+const ats2 = console.log(filmas3.calculation(this.budget));
